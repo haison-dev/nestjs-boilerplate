@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecommerce-api
+    restart: unless-stopped
+    env_file:
+      - .env
+      - .env.docker
+    ports:
+      - '${PORT:-3000}:3000'
+    depends_on:
+      - postgres
+      - redis
