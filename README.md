@@ -1,8 +1,4 @@
-# E-commerce Backend Boilerplate
-
-Production-oriented NestJS backend based on `niraj-khatiwada/ultimate-nestjs-boilerplate`, adapted to use RESTful API instead of GraphQL.
-
-Source template: https://github.com/niraj-khatiwada/ultimate-nestjs-boilerplate
+# NESTJS Boilerplate
 
 ## Current Stack
 
